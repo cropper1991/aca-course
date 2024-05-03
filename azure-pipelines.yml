@@ -35,6 +35,8 @@ stages:
         dockerfile: '$(Build.SourcesDirectory)/backend_api/backend_api_csharp/Dockerfile'
         repository: $(IMAGE_NAME)
         tags: $(TAG)
+      env: 
+        DOCKER_DEFAULT_PLATFORM: linux/arm64
 
     - task: Docker@2
       displayName: Push image to Docker Hub
