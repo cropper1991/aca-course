@@ -8,8 +8,7 @@ trigger:
     exclude:
     - Readme.md
 
-pool:
-  name: local-testing
+pool: local-testing
 
 resources:
 - repo: self
