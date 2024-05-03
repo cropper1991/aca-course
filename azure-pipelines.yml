@@ -14,7 +14,7 @@ resources:
 - repo: self
 
 variables:
-  IMAGE_NAME: markhopperatomic/album-backend-api/general
+  IMAGE_NAME: markhopperatomic/album-backend-api
   CONTAINERAPPS_APP: album-backend-api
   CONTAINERAPPS_ENVIRONMENT: aca-environment
   RESOURCE_GROUP: rg-containerapps-azure-pipelines
